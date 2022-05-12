@@ -6,7 +6,7 @@ from os import path
 import semver
 
 
-class GrapitoConan(ConanFile):
+class Project2Conan(ConanFile):
     name = "project2"
     license = "MIT"
     author = "adnn"
@@ -28,7 +28,7 @@ class GrapitoConan(ConanFile):
     requires = (
         ("boost/1.77.0"),
 
-        ("project3/50a0c94674@adnn/develop"),
+        ("project3/d8fb55a602@adnn/develop"),
     )
 
 
