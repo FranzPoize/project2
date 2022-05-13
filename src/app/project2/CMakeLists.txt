@@ -4,7 +4,7 @@ set(${TARGET_NAME}_HEADERS
     utils.h
 )
 
-set(${TARGET_NAME}_HEADERS
+set(${TARGET_NAME}_SOURCE
     utils.cpp
 )
 
