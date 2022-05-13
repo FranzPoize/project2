@@ -35,7 +35,6 @@ cmc_find_dependencies()
 target_link_libraries(${TARGET_NAME}
     PUBLIC
         sph::project3
-        Boost::boost
 )
 
 ##
